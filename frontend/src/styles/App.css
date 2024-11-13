@@ -1,0 +1,20 @@
+/* styles/App.css */
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .dropdown-selector {
+    margin: 1rem 0;
+  }
+  
+  label {
+    margin-right: 0.5rem;
+  }
+  

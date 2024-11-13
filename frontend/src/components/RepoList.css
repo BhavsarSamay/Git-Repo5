@@ -1,0 +1,150 @@
+/* styles/RepoList.css
+.repo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+  }
+  
+  .repo-card {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .repo-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  .repo-title:hover {
+    text-decoration: underline;
+  }
+  
+  .repo-description {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .repo-stars {
+    font-size: 0.9rem;
+    color: #333;
+  }
+   */
+   /* .repo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .repo-item {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .repo-item h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .repo-item a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  
+  .repo-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .repo-item p {
+    margin-bottom: 0.5rem;
+    color: #8b949e;
+  }
+  
+  .star-count {
+    font-size: 0.9rem;
+    color: #8b949e;
+  } */
+  .repo-list {
+    list-style-type: none;
+    padding: 20px;
+    height: 40px;
+}
+
+.repo-item {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Aligns children vertically */
+    justify-content: space-between; /* Makes sure the button is pushed to the bottom */
+    height: 200px; /* Fixed height to allow button alignment at the bottom */
+    transition: background 0.3s;
+}
+
+.repo-item:hover {
+    background-color: #1f2933;
+}
+
+.repo-item h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #58a6ff;
+    font-size: 1.25rem;
+}
+
+.repo-item a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.repo-item a:hover {
+    text-decoration: underline;
+}
+
+.repo-item p {
+    margin-bottom: 0.5rem;
+    color: #8b949e;
+    font-size: 0.95rem;
+}
+
+.star-count {
+    font-size: 0.9rem;
+    color: #f0c674;
+}
+
+/* Styles for the Save Repo button */
+.save-button {
+    background-color: #58a6ff; /* Blue background for button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: auto; /* Pushes the button to the bottom of the container */
+    align-self: flex-end; /* Aligns the button to the right */
+}
+
+.save-button:hover {
+    background-color: #4080c1; /* Darker blue when hovered */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+
+.save-button:active {
+    background-color: #1d6c9e; /* Even darker blue when clicked */
+    transform: translateY(0); /* Remove the upward movement */
+}
+
+.save-button:disabled {
+    background-color: #555555; /* Disabled state with gray */
+    cursor: not-allowed; /* Disable the cursor */
+}

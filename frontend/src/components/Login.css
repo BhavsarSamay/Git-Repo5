@@ -1,0 +1,77 @@
+/* General body and container styles */
+/* Specific styles for the login page */
+/* Dark theme specific styles for the login page */
+/* Dark theme specific styles for the login page */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark background */
+  }
+  
+  .login-form {
+    background-color: #1f1f1f; /* Slightly lighter dark background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    color: #f0f0f0; /* Light color for the header */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 12px 15px;
+    border: 1px solid #555; /* Darker border */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #f0f0f0; /* Light text color for input */
+    background-color: #333; /* Dark background for input */
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Blue border when focused */
+  }
+  
+  button.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* Blue button */
+    border: none;
+    border-radius: 8px;
+    color: #fff; /* White text on the button */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .error {
+    color: #f44336; /* Red color for error message */
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #f0f0f0; /* Light text color for general text */
+  }
+  

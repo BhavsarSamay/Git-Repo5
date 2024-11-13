@@ -1,0 +1,186 @@
+/* styles/Navbar.css
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+  }
+   */
+   /* .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #161b22;
+    color: #c9d1d9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #58a6ff;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login {
+    background-color: #238636;
+    color: #ffffff;
+  }
+  
+  .login:hover {
+    background-color: #2ea043;
+  }
+  
+  .signup {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+  }
+  
+  .signup:hover {
+    background-color: #30363d;
+  } */
+  /* .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #161b22;
+    color: #c9d1d9;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #dcdee4;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login {
+    background-color: #238636;
+    color: #ffffff;
+  }
+  
+  .login:hover {
+    background-color: #2ea043;
+  }
+  
+  .signup {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+  }
+  
+  .signup:hover {
+    background-color: #30363d;
+  }
+   */
+   .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #161b22;
+    color: #c9d1d9;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #dcdee4;
+    text-decoration: none; 
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login {
+    background-color: #238636;
+    color: #ffffff;
+}
+
+.login:hover {
+    background-color: #2ea043;
+}
+
+.signup {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.signup:hover {
+    background-color: #30363d;
+}
+
+/* Styling for Saved Repo Button to match consistency */
+.saved-repo {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.saved-repo:hover {
+    background-color: #30363d;
+}
+.saved-repo:hover, .saved-repo:visited, .saved-repo:link {
+  text-decoration: none;  /* Ensures the link has no underline in any state */
+}
